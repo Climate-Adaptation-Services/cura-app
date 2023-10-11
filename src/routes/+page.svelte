@@ -19,7 +19,7 @@
 		<Sidepanel/>
 	</div>
 	<div class='main_panel'>
-		<h1>Climate change in Curacaos</h1>
+		<h1>Climate change in Curacao</h1>
 		<div class='infographic-container'>
 			<img class = infographic src= {imageLink}>
 		</div>
