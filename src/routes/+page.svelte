@@ -19,7 +19,7 @@
 		<Sidepanel/>
 	</div>
 	<div class='main_panel'>
-		<h1>Climate change in Curacao</h1>
+		
 		<div class='infographic-container'>
 			<img class = infographic src= {imageLink}>
 		</div>
@@ -28,10 +28,7 @@
 
 <style>
 
-	h1{
-		color: '#333';
-		font-size: 5vh;
-	}
+	
 
 	.App{
 		width:100%;
