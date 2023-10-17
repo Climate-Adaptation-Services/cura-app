@@ -19,7 +19,6 @@
 		<Sidepanel/>
 	</div>
 	<div class='main_panel'>
-		
 		<div class='infographic-container'>
 			<img class = infographic src= {imageLink}>
 		</div>
@@ -43,6 +42,7 @@
 		padding-left:2vw;
 		padding-right:4vw;
 		padding-top:25vh;
+		width:25%;
 		
 	}
 
@@ -51,11 +51,12 @@
 		display:flex;
 		flex-direction:column;	
 		height:100%;	
+		width:75%;
 	}
 
 	.infographic-container{
 		margin: 0 0;
-  		height: 90%;
+  		height: 100%;
   		width: 100%;
   		position: relative;
 		}
@@ -63,11 +64,11 @@
 	.infographic{
 		max-height: 100%;
 		max-width: 100%;
-  		position: absolute;
+  		/* position: absolute;
  		top: 0;
 		bottom: 0;
 		left: 0;
-		right: 0;
+		right: 0; */
 		margin: auto;
 	}
 
