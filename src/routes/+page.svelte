@@ -62,7 +62,7 @@
 
 	.infographic{
 		max-height: 100%;
-  		max-width: 100%;
+  		
   		position: absolute;
  		top: 0;
 		bottom: 0;
