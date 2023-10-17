@@ -55,14 +55,14 @@
 
 	.infographic-container{
 		margin: 0 0;
-  		height: 100%;
+  		height: 90%;
   		width: 100%;
   		position: relative;
 		}
 
 	.infographic{
 		max-height: 100%;
-  		
+		max-width: 100%;
   		position: absolute;
  		top: 0;
 		bottom: 0;
