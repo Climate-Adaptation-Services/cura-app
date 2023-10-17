@@ -12,6 +12,7 @@ html, body {
   
   body {
     -ms-overflow-style: hidden;  /* IE and Edge */
+	overflow:hidden;
     scrollbar-width: none;  /* Firefox */
     color: #333;
 	margin: 0;
