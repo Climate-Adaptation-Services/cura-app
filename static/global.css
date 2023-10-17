@@ -11,7 +11,7 @@ html, body {
   }
   
   body {
-    -ms-overflow-style: none;  /* IE and Edge */
+    -ms-overflow-style: hidden;  /* IE and Edge */
     scrollbar-width: none;  /* Firefox */
     color: #333;
 	margin: 0;
