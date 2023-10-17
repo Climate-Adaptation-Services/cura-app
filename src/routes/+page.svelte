@@ -49,7 +49,8 @@
 	.main_panel{
 		flex:2;
 		display:flex;
-		flex-direction:column;		
+		flex-direction:column;	
+		height:100%;	
 	}
 
 	.infographic-container{

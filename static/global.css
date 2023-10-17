@@ -15,7 +15,7 @@ html, body {
     scrollbar-width: none;  /* Firefox */
     color: #333;
 	margin: 0;
-	padding: 8px;
+	padding: 0px;
 	box-sizing: border-box;
     font-family: Silka, Belanosima, Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   }
