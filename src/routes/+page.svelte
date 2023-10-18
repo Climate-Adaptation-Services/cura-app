@@ -12,6 +12,14 @@
      $datalaag === 'Storm surges' ? "https://raw.githubusercontent.com/sophievanderhorst/data/main/infographics/Storm%20surges.PNG":
     'no image';
 
+	$: backgroundColor = $datalaag === 'Seasonal average temperature' ? "#F14545":
+     $datalaag === 'Maximum temperature' ? "#F14545":
+     $datalaag === 'Maximum rainfall in 24h' ? "#006A9A":
+     $datalaag === 'Sea level rise' ? "#00B0FF":
+	 $datalaag === 'Storms and tropical cyclones' ? "#00B0FF":
+     $datalaag === 'Storm surges' ? "#00B0FF":
+    'green';
+
 </script>
 
 <div class='App'>
@@ -19,7 +27,7 @@
 		<Sidepanel/>
 	</div>
 	<div class='main_panel'>
-		<div class='infographic-container'>
+		<div style="background: {backgroundColor}"class='infographic-container'>
 			<img class = infographic src= {imageLink}>
 		</div>
 	</div>
@@ -31,7 +39,7 @@
 
 	.App{
 		width:100%;
-		height:90%;
+		height:100%;
 		background: whitesmoke;
 		display:flex;
 	}
@@ -42,7 +50,7 @@
 		padding-left:2vw;
 		padding-right:4vw;
 		padding-top:25vh;
-		width:25%;
+		width:20%;
 		
 	}
 
@@ -51,7 +59,7 @@
 		display:flex;
 		flex-direction:column;	
 		height:100%;	
-		width:75%;
+		width:80%;
 	}
 
 	.infographic-container{
@@ -64,11 +72,11 @@
 	.infographic{
 		max-height: 100%;
 		max-width: 100%;
-  		/* position: absolute;
+  		position: absolute;
  		top: 0;
 		bottom: 0;
 		left: 0;
-		right: 0; */
+		right: 0;
 		margin: auto;
 	}
 
